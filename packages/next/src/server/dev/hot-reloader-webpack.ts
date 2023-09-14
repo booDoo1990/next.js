@@ -408,7 +408,6 @@ export default class HotReloader implements NextJsHotReloaderInterface {
                     m.replace(/^\.\//, '[project]/')
                   ),
                   page: payload.page,
-                  isPageHidden: payload.isPageHidden,
                 },
               }
               break
